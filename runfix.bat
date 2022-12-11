@@ -1,0 +1,1 @@
+Powershell.exe -ExecutionPolicy Unrestricted -command ".\fixsteam.ps1"
