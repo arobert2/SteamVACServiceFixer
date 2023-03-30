@@ -13,6 +13,3 @@ write-host "Fixing Steam vac service";
 start-process 'C:\Program Files (x86)\Steam\bin\steamservice.exe' {'/repair'};
 $fixId = (get-process "steamservice").Id;
 wait-process $fixId;
-
-write-host "Launching Steam";
-start-process 'C:\Program Files (x86)\Steam\steam.exe';
